@@ -1,0 +1,9 @@
+server:
+  port: 8010
+
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
