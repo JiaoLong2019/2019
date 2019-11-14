@@ -1,0 +1,25 @@
+
+server:
+  port: 8849
+spring:
+  data:
+  dubbo:
+    application:
+      name: dubbo-consumer
+    consumer:
+      check: false
+    procotol:
+      name: dubbo
+      port: 20888
+    reference:
+      loadbalance: roundrobin
+    registry:
+      address: zookeeper://127.0.0.1:2181
+  redis:
+    host: 127.0.0.1
+    port: 6379
+threadpool:
+  core-pool-size: 2
+  keep-alive-seconds: 300
+  max-pool-size: 2
+  queue-capacity: 1000
