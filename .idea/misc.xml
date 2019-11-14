@@ -4,10 +4,22 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/img-oss/pom.xml" />
         <option value="$PROJECT_DIR$/shaxiangzhifu/pom.xml" />
         <option value="$PROJECT_DIR$/solr-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/log/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-ljl/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-ysq/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-wq/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-lcw/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-cjl/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-yyh/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-wjh/pom.xml" />
       </list>
     </option>
   </component>

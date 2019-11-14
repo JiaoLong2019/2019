@@ -7,15 +7,45 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="img-oss" />
-        <module name="test" />
+        <module name="demo" />
         <module name="solr-springboot" />
+        <module name="provider-wjh" />
+        <module name="provider-lcw" />
+        <module name="api" />
+        <module name="provider-ysq" />
+        <module name="rabbitmq" />
+        <module name="provider-cjl" />
         <module name="shaxiangzhifu" />
+        <module name="log" />
+        <module name="provider-yyh" />
+        <module name="consumer" />
+        <module name="provider-ljl" />
+        <module name="common" />
+        <module name="provider-wq" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1905-7" target="1.8" />
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="1905-7" options="-parameters" />
+      <module name="api" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="img-oss" options="-parameters" />
+      <module name="log" options="-parameters" />
+      <module name="provider-cjl" options="-parameters" />
+      <module name="provider-lcw" options="-parameters" />
+      <module name="provider-ljl" options="-parameters" />
+      <module name="provider-wjh" options="-parameters" />
+      <module name="provider-wq" options="-parameters" />
+      <module name="provider-ysq" options="-parameters" />
+      <module name="provider-yyh" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
       <module name="shaxiangzhifu" options="-parameters" />
       <module name="solr-springboot" options="-parameters" />
     </option>
